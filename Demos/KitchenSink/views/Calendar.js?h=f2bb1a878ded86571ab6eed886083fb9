@@ -1,0 +1,19 @@
+﻿KitchenSink.Calendar = function (params) {
+    var today = new Date(),
+        minDate = new Date(),
+        maxDate = new Date();
+
+    minDate.setDate(minDate.getDate() - 30);
+    maxDate.setDate(maxDate.getDate() + 30);
+
+    var viewModel = {
+        calendar: {
+            value: today,
+            min: minDate,
+            max: maxDate,
+            firstDayOfWeek: 0
+        }
+    };
+
+    return viewModel;
+};

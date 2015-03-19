@@ -1,0 +1,54 @@
+﻿.custom-events .events-area {
+    height: 150px;
+    border: 1px solid #C7C7C7;
+    margin: 0 10px;
+    background-color: #D0D0D0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.custom-events .events-area:before {
+    content: "Touch here";
+    color: #E5E5E5;
+    text-align: center;
+    font-size: 2em;
+    display: block;
+    line-height: 140px;
+}
+
+.custom-events .counter-badge {
+    display: inline-block;
+    min-height: 10px;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #999;
+    border-radius: 10px;
+}
+
+.custom-events .group-name {
+    margin: 10px 0;
+}
+
+.custom-events .event {
+    margin-bottom: 5px;
+}
+
+.custom-events .events-counter {
+    margin-bottom: 20px;
+}
+
+.custom-events .events-counter .dx-box-item {
+    padding: 0 10px;
+}
+
+.custom-events .event > * {
+    vertical-align: middle;
+}
